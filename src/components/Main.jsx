@@ -1,10 +1,16 @@
 import React from "react";
-import { Navbar } from "./";
+import { Footer } from "./";
 
 const Main = () => {
     return(
         <div id="main">
-            <Navbar />
+            <div className="message-container">
+                <div className="message">
+                    <h1>Welcome</h1>
+                    <h3>Hold tight while I get this functioning</h3>
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }
